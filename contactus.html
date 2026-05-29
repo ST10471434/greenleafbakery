@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact GreenLeaf Bakery - visit our locations, call us, or send a message.">
+    <title>Contact Us | GreenLeaf Bakery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>🌿 GreenLeaf Bakery</h1>
+            <p class="tagline">Organic. Local. Sustainable.</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="enquiry.html">Wholesale Enquiry</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu-btn">☰</div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you</p>
+        </section>
+
+        <section class="contact-container">
+            <!-- Locations -->
+            <div class="locations">
+                <h2>Our Locations</h2>
+                <div class="location-card">
+                    <h3>Downtown Bakery & Café</h3>
+                    <p>📍 123 Main Street<br>Anytown, ST 12345</p>
+                    <p>📞 (555) 123-4567</p>
+                    <p>🕒 Mon-Sat: 7am-7pm, Sun: 8am-2pm</p>
+                    <div class="map-placeholder" id="map1">📍 Map: 123 Main Street, Anytown</div>
+                </div>
+                <div class="location-card">
+                    <h3>Oak Avenue Production Kitchen</h3>
+                    <p>📍 456 Oak Avenue<br>Anytown, ST 12345</p>
+                    <p>📞 (555) 765-4321</p>
+                    <p>🕒 Mon-Fri: 8am-4pm (Retail counter open 10am-3pm)</p>
+                    <div class="map-placeholder" id="map2">📍 Map: 456 Oak Avenue, Anytown</div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-container">
+                <h2>Send Us a Message</h2>
+                <form id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="contactFirstName">First Name *</label>
+                            <input type="text" id="contactFirstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactLastName">Last Name *</label>
+                            <input type="text" id="contactLastName" name="lastName" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactEmail">Email Address *</label>
+                        <input type="email" id="contactEmail" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactPhone">Phone Number</label>
+                        <input type="tel" id="contactPhone" name="phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="messageType">Message Type *</label>
+                        <select id="messageType" name="messageType" required>
+                            <option value="">Select...</option>
+                            <option value="general">General Enquiry</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="order">Order Issue</option>
+                            <option value="careers">Careers / Employment</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactMessage">Your Message *</label>
+                        <textarea id="contactMessage" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div id="contactResult" class="result-message"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>🌿 GreenLeaf Bakery</h3>
+                <p>Organic artisan bakery committed to sustainability and community.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>📍 123 Main Street, Anytown</p>
+                <p>📍 456 Oak Avenue, Anytown</p>
+                <p>📞 (555)
